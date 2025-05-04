@@ -1,0 +1,28 @@
+ncvhdl: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncvhdl	15.20-s035: Started on Dec 02, 2023 at 23:02:59 EST
+ncvhdl
+    -messages
+    -linedebug
+    -cdslib /afs/umbc.edu/users/j/k/jkielty1/home/cmpe-640/cadence/cds.lib
+    -hdlvar /afs/umbc.edu/users/j/k/jkielty1/home/cmpe-640/cadence/hdl.var
+    -smartorder
+    alu_4_test.vhd
+    alu_4.vhd
+    adder4.vhd
+    adder1.vhd
+    xor2.vhd
+    and2.vhd
+    or3.vhd
+    ybox.vhd
+    zerogenerator4.vhd
+    onegenerator4.vhd
+    nibblemux4to1.vhd
+    mux4to1.vhd
+    inverter.vhd
+    or4.vhd
+    and3.vhd
+    inverter4.vhd
+    inverter.vhd
+
+ncvhdl_p: *F,WRKBAD: logical library name WORK is bound to a bad library name 'vhdl'.
+TOOL:	ncvhdl	15.20-s035: Exiting on Dec 02, 2023 at 23:02:59 EST  (total: 00:00:00)

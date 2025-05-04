@@ -1,0 +1,25 @@
+--
+-- Entity: xor2
+-- Architecture : structural
+-- Author: cpatel2
+-- Created On: 11/11/2003
+--
+LIBRARY STD;
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+
+ENTITY xor2 IS
+
+  PORT (
+    input1 : IN STD_LOGIC;
+    input2 : IN STD_LOGIC;
+    output : OUT STD_LOGIC);
+END xor2;
+
+ARCHITECTURE structural OF xor2 IS
+
+BEGIN
+
+  output <= input2 XOR input1;
+
+END structural;
